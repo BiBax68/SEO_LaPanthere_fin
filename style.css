@@ -769,7 +769,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-  background-color: #364577;
+  background-color: #1a2138;
 }
 
 .bgc-atomic-tangerine {
@@ -777,7 +777,7 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #c18367 !important;
 }
 
 .btn-atomic-tangerine {
@@ -825,6 +825,10 @@ h4 {
 
 .bg-presentation {
   background-image: url("img/image-de-presentation.webp");
+}
+
+.title_portfolio {
+  text-align: center;
 }
 
 @media (max-width: 1024px) {
