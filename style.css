@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.page-container-contact {
+  width: 1802px;
+}
+
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -362,6 +366,11 @@ a:hover {
   z-index: 2;
 }
 
+.navbar_contact {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
@@ -660,6 +669,16 @@ a {
   max-width: 1000px;
 }
 
+.container_forms {
+  margin: auto;
+  text-align: center;
+}
+
+.container_forms p {
+  font-weight: 500;
+  font-size: 18px;
+}
+
 .hero-bloc-text {
   font-size: 38px;
 }
@@ -739,6 +758,15 @@ h4 {
 
 .white {
   color: #404040 !important;
+}
+
+.ct-white {
+  color: #ffffff !important;
+}
+
+.h1_container h1,
+p {
+  color: #000000 !important;
 }
 
 .portfolio-thumb {
@@ -829,6 +857,65 @@ h4 {
 
 .title_portfolio {
   text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.home_button {
+  text-decoration: none;
+  display: block;
+  margin-right: 20rem;
+}
+
+.space-nav {
+  margin: 0;
+  padding: 0;
+}
+
+#bloc-7 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#form_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2rem;
+  width: 100%;
+}
+
+#form_1 .form-group {
+  width: 100%;
+}
+
+.form-group label {
+  font-weight: 600;
+}
+
+.form-group input,
+textarea {
+  min-height: 25px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+#form_1 button {
+  border-radius: 25px;
+}
+
+#bloc-8 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#bloc-8 p {
+  font-size: 20px;
 }
 
 @media (max-width: 1024px) {
