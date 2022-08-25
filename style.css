@@ -980,6 +980,12 @@ textarea {
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
   }
+  #bloc-7 {
+    width: 90%;
+  }
+  .home_button {
+    margin-right: 5rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1118,6 +1124,23 @@ textarea {
   .blocsapp-device-iphone5 img {
     width: 180px;
     height: 320px;
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .navbar-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .space-nav {
+    border: none !important;
+  }
+  .site-navigation li {
+    background-color: #ffffff;
+    border: none;
   }
 }
 
